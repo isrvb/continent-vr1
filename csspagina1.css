@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background: #c9d3dc ;
+}
+
+.container__card{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 1000px;
+    margin: 10px;
+}
+.card .description{
+    background: white;
+    margin-top: -10px;
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.card .description h2{
+    margin-top: 10px;
+}
+.card .description p{
+    margin-top: 10px;
+}
+
+
