@@ -87,15 +87,15 @@ main {
     transition: all 300ms;
 }
 .card:nth-of-type(1) .img__back{
-    background-color: orange;
+    background-color: red;
     border-radius:15px 15px 15px 15px;
 }
 .card:nth-of-type(2) .img__back{
-    background-color: #BCDAF1;
+    background-color: yellow;
     border-radius:15px 15px 15px 15px;
 }
 .card:nth-of-type(3) .img__back{
-    background-color: #BCDAF1;
+    background-color: cyan;
     border-radius:15px 15px 15px 15px;
 }
 .card:hover .img__back{
