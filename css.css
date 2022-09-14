@@ -88,15 +88,15 @@ main {
 }
 .card:nth-of-type(1) .img__back{
     background-color: red;
-    border-radius:15px 15px 15px 15px;
+    border-radius:30px 30px 30px 30px;
 }
 .card:nth-of-type(2) .img__back{
     background-color: yellow;
-    border-radius:15px 15px 15px 15px;
+    border-radius:30px 30px 30px 30px;
 }
 .card:nth-of-type(3) .img__back{
     background-color: cyan;
-    border-radius:15px 15px 15px 15px;
+    border-radius:30px 30px 30px 30px;
 }
 .card:hover .img__back{
     bottom: -40px;
