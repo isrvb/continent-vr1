@@ -77,8 +77,8 @@ main {
 }
 
 .card .img__back{
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 290px;
     position: absolute;
     bottom: -80px;
     left: 0;
