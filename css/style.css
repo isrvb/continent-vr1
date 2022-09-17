@@ -1,0 +1,135 @@
+:root {
+    --primary-color: #f5ce52;
+    --container-color: #0d2033;
+    --second-color: #fd8f44;
+    --text-color: #172317;
+    --bg-color: #fff;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #081123;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 110vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.titulo{
+    width:40%;
+    height:10%;
+    padding:3;
+    border-radius:10px 10px 10px 10px;
+    background:black;
+    color:white;
+    text-align:center;
+}
+
+
+.card{
+    width: 656px;
+    margin: 10x;
+}
+.card .description{
+    background: rgb(197, 212, 226);
+    margin-top: -10px;
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+h1{
+    color: aliceblue;
+}
+
+p {
+    text-align: center;
+}
+
+.btn{
+    width: 120px;
+    color: aliceblue;
+    background: #133271;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px 12px;
+}
+
+.conversor-imagen{
+    width: 150px;
+}
+
+.moneda{
+    width: 20px;
+    height: 40px;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.moneda select{
+    padding: 10px 20px 10px 10px;
+    border: 1px solid #dedede;
+    font-size: 16px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.moneda input {
+    border: 0;
+    font-size: 30px;
+    text-align: right;
+}
+
+.taza-cambio-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cambio{
+    color: #262F40;
+    font-size: 28px;
+    padding: 0 30px;
+    font-weight: 600;
+}
+
+select:focus, input:focus, button:focus{
+    outline: 0;
+}
+
+@media (max-width:600px) {
+    .moneda input{
+        width: 200px;
+    }
+    
+}
+
+.home{
+    width: 1500px;
+    min-height: 45%;
+    background: var(--container-color);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.home-text{
+    color: var(--bg-color);
+    text-align: center;
+}
+.home-title{
+    font-size: 2.5rem;
+}
+.home-subtitle{
+    font-size: 1rem;
+    font-weight: 400;
+}
