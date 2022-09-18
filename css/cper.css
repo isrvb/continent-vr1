@@ -25,10 +25,12 @@ body{
     justify-content: center;
 }
 
-.card{
-    width: 100%;
-    margin: 0px;
+
+.card {
+    width: 83%;
+    margin: 124px;
 }
+
 .card .description{
     background: #e4eaf5;
     margin-top: 54px;
