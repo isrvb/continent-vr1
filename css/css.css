@@ -87,13 +87,13 @@ body{
     display: block;
     margin: auto;
     position: relative;
-    top: 40px;
+    top: 54px;
     z-index: 1;
     filter: drop-shadow(5px 5px 4px rgba(0,0,0,0.5));
     transition: all 400ms;
 }
 .card:hover .cover img{
-    top: 0px;
+    top: 40px;
     filter: none;
 }
 
